@@ -9,16 +9,23 @@
 </head>
 
 <body>
-  <div>
-    <h1>Keshi Music Bracket</h1>
-    <h3>Rules: Press the button of the song you like more. Eliminate songs until there's only one song left aka your favorite!</h3>
+  <div class="header-box">
+    <h1 class="header-text">Keshi Music Bracket</h1>
+    <h3 class="header-text">Rules: Press the button of the song you like more. Eliminate songs until there's only one song left aka your
+      favorite!</h3>
   </div>
-  <button id="top-button" type="button" class="btn btn-primary">Like top song more</button>
-  <div id="top-song">
+  <div class="outer-flex">
+    <div class="inner-flex">
+      <div id="top-song">
+      </div>
+      <button id="top-button" type="button" class="btn btn-primary">💗</button>
+    </div>
+    <div class="inner-flex">
+      <div id="bottom-song">
+      </div>
+      <button id="bottom-button" type="button" class="btn btn-primary">💗</button>
+    </div>
   </div>
-  <div id="bottom-song">
-  </div>
-  <button id="bottom-button" type="button" class="btn btn-primary">Like bottom song more</button>
 </body>
 <script src="KeshiMusicBracket.js"></script>
 

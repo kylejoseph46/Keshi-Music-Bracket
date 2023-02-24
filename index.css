@@ -1,8 +1,55 @@
 body, html {
-    background-color: darkblue;
+    /* background-color: darkblue; */
+    background-color: #1A1A1D;
     color: white;
 }
 
 button {
    cursor: pointer; 
+}
+
+.outer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 80vh;
+}
+
+.inner-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-box {
+    margin-bottom: 20px;
+}
+
+#bottom-button {
+    margin-top: 10px;
+    font-size: 50px;
+    background-color: #1A1A1D;
+    border-color: #1A1A1D;
+}
+
+#bottom-button:hover {
+    font-size: 55px;
+}
+
+#top-button {
+    margin-top: 10px;
+    font-size: 50px;
+    background-color: #1A1A1D;
+    border-color: #1A1A1D;
+}
+
+#top-button:hover {
+    font-size: 55px;
 }
