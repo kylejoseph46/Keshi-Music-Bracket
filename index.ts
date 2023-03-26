@@ -1,11 +1,11 @@
-let topSong = document.getElementById('top-song')
-let bottomSong = document.getElementById('bottom-song')
-let topButton = document.getElementById('top-button')
-let bottomButton = document.getElementById('bottom-button')
-let displayButton = document.getElementById('display-button')
+let topSong: any = document.getElementById('top-song')
+let bottomSong: any = document.getElementById('bottom-song')
+let topButton: any = document.getElementById('top-button')
+let bottomButton: any = document.getElementById('bottom-button')
+let displayButton: any = document.getElementById('display-button')
 
 
-const initialArray = []
+const initialArray: any[] = []
 let arrayCount = 0
 //Top variables.
 let initialTopCount = 0
@@ -15,7 +15,7 @@ let initialBottomCount = 1
 let bottomCount = 1
 
 
-SongCollection = {
+const SongCollection = {
     song1: ` <iframe 
 style="border-radius:12px" 
 src="https://open.spotify.com/embed/track/5SMCxRA6hB2jEhroaYfw6N?utm_source=generator" 
